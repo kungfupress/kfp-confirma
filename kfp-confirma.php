@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || die();
 
 // Agrega action hook para procesar la petición vía URL de un usuario no logeado.
 // La URL envíada sería algo como:
-// https://mi-sitio.com/admin.post.php?action=kfp-confirma&token=LM3XXP5467
+// https://mi-sitio.com/admin.post.php?action=kfp-confirma&token=LM3XXP5467 .
 add_action( 'admin_post_nopriv_kfp-confirma', 'kfp_confirma_correo' );
 
 /**
